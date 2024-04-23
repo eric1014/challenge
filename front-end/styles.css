@@ -1,0 +1,137 @@
+/* Reset CSS */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px 0;
+}
+
+.hero {
+    background-image: url('https://via.placeholder.com/1500x600');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para o rodapé */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px; /* Altura desejada para o rodapé */
+    background-color: #343a40; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    text-align: center;
+    padding: 20px 0; /* Adicione padding para espaçamento interno no rodapé */
+    font-size: 1.2rem; /* Tamanho do texto do rodapé */
+}
+
+/* Estilos para os membros da equipe */
+.team {
+  padding: 40px 20px; /* Adicionando um preenchimento interno */
+}
+
+.member {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.member img {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.member .info {
+  flex: 1;
+}
+
+.member h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.member p {
+  margin-bottom: 10px;
+}
+
+.member a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.member a:hover {
+  background-color: #0056b3;
+}
