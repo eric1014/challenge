@@ -4,32 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AutoRecomenda - Ranking de Oficinas Automotivas</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="./images/favicon-autorecomenda.png" type="image/png">
+    <style>
+        .container {
+            text-align: center;
+            padding-top: 50px;
+            overflow: auto;
+        }
+
+        .text-box {
+            width: calc(50% - 40px);
+            margin: 10px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            float: left;
+        }
+    </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>AutoRecomenda</h1>
+            <h1><i class="fas fa-car"></i> AutoRecomenda</h1>
             <nav>
                 <ul>
-                    <li><a href="./index.html">Início</a></li>
-                    <li><a href="./pages/search.html">Oficinas</a></li>
-                    <li><a href="./pages/about.html">Sobre</a></li>
-                    <li><a href="./pages/contact.html">Contato</a></li>
-                    <li><a href="./pages/team.html">Integrantes</a></li>
+                    <li><a href="./pages/search.html" target="_blank">Oficinas</a></li>
+                    <li><a href="./pages/about.html" target="_blank">Sobre</a></li>
+                    <li><a href="./pages/contact.html" target="_blank">Contato</a></li>
+                    <li><a href="./pages/team.html" target="_blank">Integrantes</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="container">
-                <h2>Bem-vindo ao AutoRecomenda!</h2>
-                <p>Encontre as melhores Oficinas para resolver os problemas do seu carro.</p>
-                <a href="./pages/search.html" class="cta-button">Oficinas</a>
+        <div class="container">
+            <div class="text-box">
+                <h2>Vazamento de óleo</h2>
+                <p>Diga adeus aos vazamentos de óleo! Na AutoRecomenda, oferecemos soluções de vedação de última geração para garantir que seu carro permaneça livre de vazamentos indesejados. Conte com nossa expertise e tecnologia avançada para manter seu motor funcionando sem preocupações.</p>
             </div>
-        </section>
+            <div class="text-box">
+                <h2>Problemas elétricos</h2>
+                <p>Cansado de lidar com problemas elétricos em seu carro? Na AutoRecomenda, temos os melhores especialistas em eletrônica automotiva prontos para resolver qualquer questão. De fusíveis queimados a sistemas de entretenimento falhos, nós temos a solução perfeita para manter seu carro funcionando como novo.</p>
+            </div>
+            <div class="text-box">
+                <h2>Problemas de transmissão</h2>
+                <p>Nada mais frustrante do que problemas de transmissão, certo? Na AutoRecomenda, oferecemos soluções de transmissão de ponta que garantem trocas de marcha suaves e confiáveis. Com nossa equipe de técnicos especializados, você pode confiar que seu carro estará sempre na marcha certa.</p>
+            </div>
+            <div class="text-box">
+                <h2>Falhas nos freios</h2>
+                <p>Não comprometa a segurança com falhas nos freios! Na AutoRecomenda, temos os especialistas e os componentes de freio de alta qualidade necessários para garantir paradas seguras e precisas. De pastilhas desgastadas a problemas de vibração, nós resolvemos tudo para que você possa dirigir com confiança.</p>
+            </div>
+        </div>
     </main>
 
     <footer>

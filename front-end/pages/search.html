@@ -1,30 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Buscar Problemas - Ranking de Mecânicas Automotivas</title>
-    <link rel="stylesheet" href="../styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Oficinas - AutoRecomenda</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../images/favicon-autorecomenda.png" type="image/png">
+    <style>
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #searchInput {
+            width: 80%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        #results {
+            list-style: none;
+            padding: 0;
+        }
+
+        #results li {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="../index.html" target="_blank">Início</a></li>
-          <li><a href="./search.html" target="_blank">Buscar Problemas</a></li>
-          <li><a href="./about.html" target="_blank">Sobre</a></li>
-          <li><a href="./contact.html" target="_blank">Contato</a></li>
-          <li><a href="./team.html" target="_blank">Integrantes</a></li>
-        </ul>
-      </nav>
+        <div class="container">
+            <h1>Busca de Oficinas - AutoRecomenda</h1>
+            <p>Encontre as melhores oficinas automotivas em São Paulo!</p>
+        </div>
     </header>
 
     <main>
-      <!-- Conteúdo da página -->
+        <div class="container">
+            <input type="text" id="searchInput" placeholder="Digite o nome da oficina">
+            <ul id="results"></ul>
+        </div>
     </main>
 
     <footer>
-      <p>&copy; 2024 AutoRecomenda</p>
+        <p>&copy; 2024 AutoRecomenda - Ranking de Oficinas Automotivas</p>
     </footer>
+
+    <script>
+        document.getElementById('searchInput').addEventListener('input', function() {
+            const query = this.value.trim().toLowerCase();
+            const results = document.getElementById('results');
+            results.innerHTML = '';
+
+            if (!query) {
+                return;
+            }
+
+            fetch('../database/database.json')
+                .then(response => response.json())
+                .then(data => {
+                    const filteredData = data.filter(oficina => oficina.nome.toLowerCase().includes(query));
+                    filteredData.forEach(oficina => {
+                        const listItem = document.createElement('li');
+                        listItem.textContent = `${oficina.nome} - ${oficina.endereco} (Score: ${oficina.score})`;
+                        results.appendChild(listItem);
+                    });
+                })
+                .catch(error => console.error('Erro ao carregar dados:', error));
+        });
+    </script>
 </body>
 </html>
