@@ -1,8 +1,6 @@
-/* Estilos específicos para a página "about.html" */
 
-/* Estilizando o cabeçalho */
 header {
-    background-color: #007bff; /* Azul que transmite confiança */
+    background-color: #007bff;
   }
   
   header h1 {
@@ -19,10 +17,10 @@ header {
     text-decoration: underline;
   }
   
-  /* Estilizando a seção "Nossa História" */
+
   .about {
     padding: 40px 0;
-    background-color: #f8f9fa; /* Cor de fundo da seção */
+    background-color: #f8f9fa;
   }
   
   .about h2 {
