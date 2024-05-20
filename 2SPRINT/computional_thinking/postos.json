@@ -1,0 +1,15 @@
+{
+    "postos": [
+      {"bairro": "Liberdade", "endereco": "Rua dos Estudantes 123"},
+      {"bairro": "Vila Madalena", "endereco": "Rua Harmonia 456"},
+      {"bairro": "Jardins", "endereco": "Alameda Lorena 789"},
+      {"bairro": "Moema", "endereco": "Avenida Ibirapuera 101"},
+      {"bairro": "Bela Vista", "endereco": "Rua Treze de Maio 202"},
+      {"bairro": "Pinheiros", "endereco": "Rua dos Pinheiros 303"},
+      {"bairro": "Santana", "endereco": "Avenida Braz Leme 404"},
+      {"bairro": "Ibirapuera", "endereco": "Avenida Pedro Álvares Cabral 505"},
+      {"bairro": "Tatuape", "endereco": "Rua Tuiuti 606"},
+      {"bairro": "Morumbi", "endereco": "Avenida Giovanni Gronchi 707"}
+    ]
+  }
+  
