@@ -1,0 +1,1527 @@
+{
+  "intents": [
+    {
+      "intent": "Agenda_manutencao",
+      "examples": [
+        {
+          "text": "Agendar manuntenção"
+        },
+        {
+          "text": "Boa noite, necessito agendar uma manutenção."
+        },
+        {
+          "text": "Boa tarde, gostaria de programar uma manutenção."
+        },
+        {
+          "text": "Bom dia, preciso agendar um serviço de manutenção."
+        },
+        {
+          "text": "Oi, gostaria de reservar um horário para manutenção."
+        },
+        {
+          "text": "Oi, quero marcar uma manutenção."
+        },
+        {
+          "text": "Olá, desejo agendar uma inspeção de manutenção."
+        },
+        {
+          "text": "Olá, estou interessado em agendar uma revisão."
+        },
+        {
+          "text": "Olá, gostaria de agendar uma manutenção"
+        },
+        {
+          "text": "Olá, poderia agendar uma manutenção para mim?"
+        },
+        {
+          "text": "Olá, poderia marcar uma manutenção, por favor?"
+        },
+        {
+          "text": "Olá, preciso marcar um serviço de manutenção."
+        },
+        {
+          "text": "Olá, quero solicitar um agendamento de manutenção."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "consultar_Historico_de_problemas",
+      "examples": [
+        {
+          "text": "Anteriormente, seu veículo foi trazido para reparo devido a problemas com os freios. Podemos estar lidando com uma questão relacionada?"
+        },
+        {
+          "text": "Após o reparo realizado em seu veículo, o problema relatado anteriormente deve estar resolvido. Por favor, nos avise se enfrentar mais dificuldades."
+        },
+        {
+          "text": "Com base em nossos registros, parece que o problema recorrente foi resolvido com sucesso após a última visita à oficina. Como está o desempenho do seu veículo agora?"
+        },
+        {
+          "text": "Com base em nossos registros, seu veículo teve problemas com o sistema de transmissão no ano passado. Você está enfrentando problemas semelhantes agora?"
+        },
+        {
+          "text": "Considerando os problemas anteriores que seu veículo teve com o sistema de direção, sugiro uma verificação completa durante a próxima manutenção programada."
+        },
+        {
+          "text": "Consultar Historico"
+        },
+        {
+          "text": "Dado o histórico de problemas do seu veículo, recomendo uma inspeção mais detalhada do sistema elétrico para evitar problemas futuros"
+        },
+        {
+          "text": "Deixe-me verificar os problemas anteriores relatados em seu veículo. Qual é o ano e modelo do seu carro?"
+        },
+        {
+          "text": "Gostaria de revisar os registros de manutenção anteriores do seu veículo. Por favor, forneça o número do chassi."
+        },
+        {
+          "text": "Nossos registros mostram que seu veículo teve problemas com a bateria no passado. Preciso verificar se isso está relacionado ao problema atual. Você se lembra de quando isso aconteceu pela última vez?"
+        },
+        {
+          "text": "Posso verificar o histórico de serviços realizados em seu veículo. Você pode me fornecer o número da placa?"
+        },
+        {
+          "text": "Vou pesquisar em nosso sistema para ver se houve algum problema anteriormente registrado em seu veículo. Qual é o número do registro do seu serviço mais recente?"
+        },
+        {
+          "text": "Vou verificar o histórico do seu veículo para ver se houve problemas recorrentes. Isso pode nos ajudar a identificar a causa raiz. Por favor, forneça o número do chassi."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "enviar_imagem_para_analise",
+      "examples": [
+        {
+          "text": "Boa noite, necessito enviar uma imagem para ser analisada."
+        },
+        {
+          "text": "Boa tarde, gostaria de encaminhar uma foto para análise."
+        },
+        {
+          "text": "Bom dia, preciso enviar uma imagem para ser analisada."
+        },
+        {
+          "text": "Como faço para enviar uma imagem do problema do meu veículo para análise?"
+        },
+        {
+          "text": "enviar imagem para analise"
+        },
+        {
+          "text": "Oi, gostaria de submeter uma imagem para análise."
+        },
+        {
+          "text": "Oi, quero mandar uma imagem para análise."
+        },
+        {
+          "text": "Olá, desejo enviar uma imagem para inspeção."
+        },
+        {
+          "text": "Olá, estou interessado em enviar uma imagem para avaliação."
+        },
+        {
+          "text": "Olá, poderia encaminhar uma imagem para avaliação?"
+        },
+        {
+          "text": "Olá, poderia enviar uma foto para análise, por favor?"
+        },
+        {
+          "text": "Olá, preciso mandar uma imagem para análise."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "identificar_problemas",
+      "examples": [
+        {
+          "text": "Desejo encontrar um defeito no meu automóvel."
+        },
+        {
+          "text": "Desejo identificar uma falha no meu veículo."
+        },
+        {
+          "text": "Gostaria de detectar um problema no meu automóvel."
+        },
+        {
+          "text": "Gostaria de saber qual é o problema no meu carro."
+        },
+        {
+          "text": "Gostaria de verificar o que há de errado com meu carro."
+        },
+        {
+          "text": "identificar um problema"
+        },
+        {
+          "text": "olá, gostaria de identificar um problema no meu veiculo "
+        },
+        {
+          "text": "Preciso descobrir o que está errado com meu veículo."
+        },
+        {
+          "text": "Preciso descobrir um problema no meu carro."
+        },
+        {
+          "text": "Preciso de um diagnóstico para verificar por que meu carro está superaquecendo?"
+        },
+        {
+          "text": "Preciso encontrar a causa de um problema no meu carro."
+        },
+        {
+          "text": "Preciso entender o problema no meu automóvel."
+        },
+        {
+          "text": "Preciso identificar uma falha no meu veículo."
+        },
+        {
+          "text": "Quero diagnosticar um problema no meu automóvel."
+        },
+        {
+          "text": "quero identificar um problema "
+        },
+        {
+          "text": "Quero identificar um problema no meu carro."
+        },
+        {
+          "text": "Quero investigar um problema no meu carro."
+        },
+        {
+          "text": "Quero saber qual é a falha no meu veículo."
+        },
+        {
+          "text": "Quero verificar um defeito no meu veículo."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "solicitar_assistencia",
+      "examples": [
+        {
+          "text": "Boa noite, preciso de suporte técnico."
+        },
+        {
+          "text": "Boa tarde, gostaria de assistência técnica."
+        },
+        {
+          "text": "Bom dia, preciso de ajuda técnica."
+        },
+        {
+          "text": "Oi, necessito de serviço de assistência técnica."
+        },
+        {
+          "text": "Olá, estou buscando ajuda técnica."
+        },
+        {
+          "text": "Olá, estou precisando de serviço técnico."
+        },
+        {
+          "text": "Olá, necessito de apoio técnico."
+        },
+        {
+          "text": "Olá, poderia fornecer assistência técnica?"
+        },
+        {
+          "text": "Olá, preciso de assistência tecnica"
+        },
+        {
+          "text": "Olá, preciso de suporte especializado."
+        },
+        {
+          "text": "Olá, quero solicitar assistência técnica."
+        },
+        {
+          "text": "Solicitar assistência"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "data",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "domingo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "quarta feira",
+          "synonyms": [
+            "quarta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "quinta feira",
+          "synonyms": [
+            "quinta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sabado",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "segunda feira",
+          "synonyms": [
+            "segunda"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sexta feira",
+          "synonyms": [
+            "sexta "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "terca feira",
+          "synonyms": [
+            "terca"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "descricao_problema",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Desgaste dos pneus",
+          "synonyms": [
+            "mal funcionamento dos pneus",
+            "Pneus carecas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dificuldade em manter o veículo em linha reta",
+          "synonyms": [
+            "vibrações no volante",
+            "vículo instável "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dificuldades de troca de marchas",
+          "synonyms": [
+            " solavancos ao trocar de marcha",
+            "vazamentos de fluido de transmissão"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Falha no sistema de emissões",
+          "synonyms": [
+            "falhas nos sensores",
+            " luzes de advertência acesas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "falhas na partida",
+          "synonyms": [
+            " problemas com o sistema de ignição"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Falhas no sistema de injeção eletrônica",
+          "synonyms": [
+            "mau funcionamento de injeção",
+            "problemas com o sistema de controle de estabilidade"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Falhas no sistema elétrico",
+          "synonyms": [
+            "fusíveis queimados",
+            "poblemas com bateria"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Problemas com o sistema de arrefecimento",
+          "synonyms": [
+            "falha do termostato.",
+            "vazamentos de líquido de arrefecimento"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ruídos ou rangidos ao passar por irregularidades na estrada",
+          "synonyms": [
+            "amortecedores desgastados ou molas quebradas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sistema hidráulico ruim ou ruídos anormais durante a frenagem.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vazamentos de óleo do motor",
+          "synonyms": [
+            "fluido de freio",
+            "fluido de transmissão",
+            " líquido de arrefecimento"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "veículo puxando para um lado",
+          "synonyms": [
+            "direção instável"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "hora",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "08",
+          "synonyms": [
+            "08 da manha",
+            "08 horas",
+            "08hrs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "09",
+          "synonyms": [
+            "09 da manha",
+            "09 horas",
+            "09hrs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "10",
+          "synonyms": [
+            "10 da manha",
+            "10 horas",
+            "10hrs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "11",
+          "synonyms": [
+            "11 da manha",
+            "11 horas",
+            "11hrs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "12",
+          "synonyms": [
+            "12 da tarde",
+            "12 horas",
+            "12hrs",
+            "meio dia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "13",
+          "synonyms": [
+            "01 da tarde",
+            "13 da tarde",
+            "13 horas",
+            "13hrs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "14",
+          "synonyms": [
+            "14 horas",
+            "14hrs",
+            "2 da tarde"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "15",
+          "synonyms": [
+            "15 horas",
+            "15hrs",
+            "3 da tarde"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "16",
+          "synonyms": [
+            "04 da tarde",
+            "16 horas",
+            "16hrs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "17",
+          "synonyms": [
+            "05 da tarde",
+            "17 horas",
+            "17hrs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "18",
+          "synonyms": [
+            "06 da tarde",
+            "18 horas",
+            "18hrs"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "local",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Avenida interlagos 800",
+          "synonyms": [
+            "Avenida numero x"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Condominio",
+          "synonyms": [
+            "Condominio x numero 320 "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "rodovia x",
+          "synonyms": [
+            "Marginal Pinheiros"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rua xxxxx",
+          "synonyms": [
+            "Rua tananana 1800"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Shopping boa vista",
+          "synonyms": [
+            "shopping X"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "marca_veiculo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "caoa cherry",
+          "synonyms": [
+            "caoa ",
+            "cherry"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chevrolet",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "citroem",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "fiat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ford",
+          "synonyms": [
+            "ford"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "honda",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hyundai",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nissan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pegeout",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "renault",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "volkwagen",
+          "synonyms": [
+            "volks"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "volvo",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "modelo_veiculo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "argo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "c3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "creta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "focus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hb20",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "kwid",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sandeiro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "spin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tcross",
+          "synonyms": [
+            "t cross"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tiggo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tracker",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "xc 40",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "resultado_teste",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Alinhamento",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alternador",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Arrefecimento",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bateria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Compressão do Motor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Compressão dos Freios",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Diagnóstico por Scanner",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emissões",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Freios",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Injeção de Combustível",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pressão do Óleo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Suspensão",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim_nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nao",
+          "synonyms": [
+            "incorreto "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sim",
+          "synonyms": [
+            "beleza",
+            "isso ",
+            "isso mesmo ",
+            "Ok",
+            "perfeito",
+            "show"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tipo_de_problema",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Desgaste de Componentes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Problemas com Sistemas Eletrônicos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Problemas de Direção",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Problemas de Emissões",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Problemas de Freios",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Problemas de Ignição",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Problemas de Suspensão",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Problemas de Suspensão e Alinhamento",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Problemas de Transmissão",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Problemas Elétricos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Superaquecimento do Motor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vazamentos de Fluidos",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Como posso te ajudar?"
+              },
+              {
+                "text": "Em que posso ser útil?"
+              },
+              {
+                "text": "Bom dia/tarde/noite. Como posso auxiliá-lo(a)?"
+              },
+              {
+                "text": "Como posso estar ao seu dispor?"
+              },
+              {
+                "text": "Oi. Posso ser de alguma ajuda?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, me conte mais sobre o seu problema."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716325129572",
+      "disabled": true,
+      "event_name": "focus",
+      "dialog_node": "handler_1_1716334861224",
+      "previous_sibling": "slot_1_1716335260771"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1716418409670",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1716418409671",
+      "previous_sibling": "handler_9_1716418409671"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Descreva o problema do seu veiculo "
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_1_1716335260771",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1716335260771",
+      "previous_sibling": "handler_9_1716335260771"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1716419995345",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1716419995346",
+      "previous_sibling": "handler_9_1716419995346"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1716335260771",
+      "context": {
+        "descricao_problema": "@descricao_problema"
+      },
+      "conditions": "@descricao_problema",
+      "event_name": "input",
+      "dialog_node": "handler_9_1716335260771"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1716418409670",
+      "context": {
+        "data": "@data"
+      },
+      "conditions": "@data",
+      "event_name": "input",
+      "dialog_node": "handler_9_1716418409671"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1716419995345",
+      "context": {
+        "hora": "@hora"
+      },
+      "conditions": "@hora",
+      "event_name": "input",
+      "dialog_node": "handler_9_1716419995346"
+    },
+    {
+      "type": "standard",
+      "title": "solicitar ajuda",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Correto, Nos envie sua localização por gentileza. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#solicitar_assistencia",
+      "dialog_node": "node_1_1716324810290",
+      "previous_sibling": "node_2_1716324709909"
+    },
+    {
+      "type": "standard",
+      "title": "identificando intenção problema ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual seu problema?"
+              },
+              {
+                "text": "Qual é a sua complicação?\n"
+              },
+              {
+                "text": "O que está errado?\n"
+              },
+              {
+                "text": "O que está te atrapalhando?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1716325129572"
+      },
+      "conditions": "#identificar_problemas",
+      "dialog_node": "node_1_1716335827259",
+      "previous_sibling": "node_1_1716324810290"
+    },
+    {
+      "type": "standard",
+      "title": "Enviar imagem para analise",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo. Nos envie fotos de onde o problema esta surgindo."
+              },
+              {
+                "text": "Combinado. Envie-nos fotos da área onde o problema está acontecendo."
+              },
+              {
+                "text": "Entendido. Por favor, envie fotos do lugar onde o problema está se manifestando."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#enviar_imagem_para_analise",
+      "dialog_node": "node_2_1716324709909",
+      "previous_sibling": "Bem-vindo",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "frame",
+      "title": "Agendando Consulta",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@data",
+      "dialog_node": "node_4_1716324178930",
+      "previous_sibling": "node_8_1715616288590"
+    },
+    {
+      "type": "standard",
+      "title": "agendamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro! Qual o horario e dia que o senhor deseja marcar sua consulta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1716324178930"
+      },
+      "conditions": "#Agenda_manutencao",
+      "dialog_node": "node_8_1715616288590",
+      "previous_sibling": "node_9_1716325129572"
+    },
+    {
+      "type": "frame",
+      "title": "Identificando problema",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@descricao_problema",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1716325129572",
+      "previous_sibling": "node_1_1716335827259"
+    },
+    {
+      "type": "standard",
+      "title": "Consultar historico de problemas ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sem problemas, O histórico de problemas do seu veículo é x, y e z!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#consultar_Historico_de_problemas",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1716490946881",
+      "previous_sibling": "node_4_1716324178930"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito, enviaremos um tecnico assim que possível. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1716324810290",
+      "disabled": true,
+      "conditions": "@sim_nao:Sim",
+      "dialog_node": "response_10_1716325075346",
+      "previous_sibling": "response_3_1716325026183"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Verificar a bateria, inspecionar o motor de arranque e testar o sistema de ignição."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716325129572",
+      "conditions": "$descricao_problema:(falhas na partida)",
+      "dialog_node": "response_10_1716325221671",
+      "previous_sibling": "response_6_1716325210727"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, reiniciarei a conversa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1716324810290",
+      "disabled": true,
+      "conditions": "@sim_nao:nao",
+      "dialog_node": "response_3_1716325026183",
+      "previous_sibling": "response_7_1716324934609"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seria interessante verificar os fusíveis queimados, checar conexões e cabos elétricos, e testar a bateria e o alternador e trocar de acordo com a necessidade ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716325129572",
+      "conditions": "$descricao_problema:(Falhas no sistema elétrico)",
+      "dialog_node": "response_3_1716325204141",
+      "previous_sibling": "handler_1_1716334861224"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "melhor verificar o alinhamento das rodas, inspecionar a pressão dos pneus e checar os componentes da suspensão e direção."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716325129572",
+      "conditions": "$descricao_problema:(veículo puxando para um lado)",
+      "dialog_node": "response_3_1716325230249",
+      "previous_sibling": "response_10_1716325221671"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Melhor erificar e apertar vedações, inspecionar juntas desgastadas e revisar o cárter e o filtro de óleo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716325129572",
+      "conditions": "$descricao_problema:(Vazamentos de óleo do motor)",
+      "dialog_node": "response_3_1716325267253",
+      "previous_sibling": "response_9_1716325245691"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Verifique e substitua caso necessário o fluido de freio, inspecionar mangueiras e conexões, e examinar pastilhas e discos de freio."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716325129572",
+      "conditions": "$descricao_problema:(sistema hidráulico ruim ou ruídos anormais durante a frenagem.)",
+      "dialog_node": "response_3_1716325271984",
+      "previous_sibling": "response_3_1716325267253"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "procure observar o alinhamento das rodas, inspecionar a suspensão e a direção, e balancear os pneus caso necessário. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716325129572",
+      "conditions": "$descricao_problema:(Dificuldade em manter o veículo em linha reta)",
+      "dialog_node": "response_3_1716325365422",
+      "previous_sibling": "response_5_1716325354186"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Verificar e limpar os bicos injetores, inspecionar o filtro de combustível e verificar a pressão do combustível no sistema de injeção."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716325129572",
+      "conditions": "$descricao_problema:(Falhas no sistema de injeção eletrônica)",
+      "dialog_node": "response_3_1716325384368",
+      "previous_sibling": "response_4_1716325383100"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Verificar e substituir o filtro de ar, inspecionar e limpar os sensores de oxigênio, e examinar o catalisador e o sistema de escapamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716325129572",
+      "conditions": "$descricao_problema:(Falha no sistema de emissões)",
+      "dialog_node": "response_4_1716325383100",
+      "previous_sibling": "response_3_1716325365422"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você pode verificar a pressão dos pneus regularmente, fazer o rodízio dos pneus periodicamente e alinhar as rodas conforme necessário."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716325129572",
+      "conditions": "$descricao_problema:(Desgaste dos pneus)",
+      "dialog_node": "response_5_1716325354186",
+      "previous_sibling": "response_3_1716325271984"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "eu recomendaria inspecionar e apertar as suspensões, verificar buchas e amortecedores, e lubrificar partes móveis do sistema de suspensão."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716325129572",
+      "conditions": "$descricao_problema:(Ruídos ou rangidos ao passar por irregularidades na estrada)",
+      "dialog_node": "response_6_1716325210727",
+      "previous_sibling": "response_8_1716325188575"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro! Qual o horario e dia que o senhor deseja marcar sua consulta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1715616288590",
+      "disabled": true,
+      "conditions": "#",
+      "dialog_node": "response_6_1716331995642"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo! Um agendamento foi marcado pra você a $data as $hora horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1716324178930",
+      "conditions": "$data && $hora",
+      "dialog_node": "response_6_1716418432158"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Correto, Pode nos enviar sua localização:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1716324810290",
+      "disabled": true,
+      "conditions": "#solicitar_assistencia",
+      "dialog_node": "response_7_1716324934609"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seria interessante verificar o líquido de arrefecimento, inspecionar mangueiras e conexões, e testar o funcionamento do termostato e da bomba d'água."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716325129572",
+      "conditions": "$descricao_problema:(Problemas com o sistema de arrefecimento)",
+      "dialog_node": "response_8_1716325188575",
+      "previous_sibling": "response_3_1716325204141"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nesse caso seria interessante verificar e apertar vedações, inspecionar e substituir juntas desgastadas, e revisar o cárter e o filtro de óleo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716325129572",
+      "conditions": "$descricao_problema:(Vazamentos de óleo do motor)",
+      "dialog_node": "response_9_1716325245691",
+      "previous_sibling": "response_3_1716325230249"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1716325129572",
+      "variable": "$descricao_problema",
+      "dialog_node": "slot_1_1716335260771"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1716324178930",
+      "variable": "$data",
+      "dialog_node": "slot_3_1716418409670",
+      "previous_sibling": "response_6_1716418432158"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1716324178930",
+      "variable": "$hora",
+      "dialog_node": "slot_5_1716419995345",
+      "previous_sibling": "slot_3_1716418409670"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "challenge_skills"
+}
