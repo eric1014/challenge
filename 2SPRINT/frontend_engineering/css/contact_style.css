@@ -1,0 +1,123 @@
+
+.contact-container {
+    text-align: center;
+    padding-top: 50px;
+    overflow: auto;
+}
+
+.container-flex {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    /* padding-top: 50px; */
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info {
+    width: calc(50% - 40px);
+    height: 100%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+/* CONTACT INPUT STYLE */
+.custom_input {
+	display: flex;
+	align-items: center;
+	position: relative;
+	max-width: 100%;
+}
+
+.input {
+    margin-top: 5px;
+	font-size: 12px;
+	padding: 5px 10px;
+	width: 50%;
+	outline: none;
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #C4D1EB;
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px 0px #E2E2E2;
+	transition: .3s ease;
+}
+
+.input:focus {
+	background: #F2F2F2;
+	border: 1px solid #5A7EC7;
+	border-radius: 10px;
+}
+
+.input::placeholder {
+	color: #DDDDDD;
+}
+
+
+/* CONTACT BUTTON STYLE */
+.submit-button {
+    margin-top: 10px;
+    font-family: arial;
+    color: #007BFF !important;
+    font-size: 12px;
+    /* text-shadow: 1px 1px 0px #007BFF; */
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 5px 25px;
+    border-radius: 10px;
+    border: 2px solid #007BFF;
+    background: #FFFCFC;
+  }
+  .submit-button:hover {
+    color: #14396A !important;
+    background: #468CCF;
+  }
+
+  footer {
+    margin-top: 12.7vh;
+  }
+
+  /* main {
+    height: 62.2vh;
+  } */
+
+  /* Media Queries para Dispositivos Móveis */
+@media (max-width: 767px) {
+  .container-flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .contact-info {
+    width: auto;
+  }
+
+  .contact-form {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  footer {
+    margin-top: 4px;
+  }
+  .container-flex {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

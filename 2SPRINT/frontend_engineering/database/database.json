@@ -1,0 +1,72 @@
+[
+    {
+        "nome": "AutoFix Reparos Rápidos",
+        "endereco": "Av. Paulista, 1001",
+        "cidade": "São Paulo",
+        "telefone": "(11) 1234-5678",
+        "score": 4.5
+    },
+    {
+        "nome": "Mecânica Velocidade Certa",
+        "endereco": "Rua dos Carros, 500",
+        "cidade": "São Paulo",
+        "telefone": "(11) 9876-5432",
+        "score": 4.2
+    },
+    {
+        "nome": "Carro Forte Oficina Automotiva",
+        "endereco": "Av. das Rodas, 789",
+        "cidade": "São Paulo",
+        "telefone": "(11) 5678-1234",
+        "score": 4.7
+    },
+    {
+        "nome": "MotoMecânica Express",
+        "endereco": "Rua das Motos, 321",
+        "cidade": "São Paulo",
+        "telefone": "(11) 4321-8765",
+        "score": 4.0
+    },
+    {
+        "nome": "Velozes e Precisos Reparos",
+        "endereco": "Av. dos Motores, 987",
+        "cidade": "São Paulo",
+        "telefone": "(11) 2468-1357",
+        "score": 4.8
+    },
+    {
+        "nome": "Garagem dos Carros Felizes",
+        "endereco": "Rua dos Automóveis, 753",
+        "cidade": "São Paulo",
+        "telefone": "(11) 8765-4321",
+        "score": 4.3
+    },
+    {
+        "nome": "Reparos 24 Horas",
+        "endereco": "Av. dos Motores, 741",
+        "cidade": "São Paulo",
+        "telefone": "(11) 1357-2468",
+        "score": 4.6
+    },
+    {
+        "nome": "Mecânica do Seu João",
+        "endereco": "Rua dos Carros, 246",
+        "cidade": "São Paulo",
+        "telefone": "(11) 6543-2109",
+        "score": 4.1
+    },
+    {
+        "nome": "Oficina dos Amigos",
+        "endereco": "Av. das Rodas, 852",
+        "cidade": "São Paulo",
+        "telefone": "(11) 3210-9876",
+        "score": 4.9
+    },
+    {
+        "nome": "MotoManutenção Total",
+        "endereco": "Rua das Motos, 987",
+        "cidade": "São Paulo",
+        "telefone": "(11) 7890-5432",
+        "score": 4.4
+    }
+]

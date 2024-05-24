@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busca de Oficinas - AutoRecomenda</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/search_style.css" />
+    <link
+      rel="icon"
+      href="../images/favicon-autorecomenda.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <header role="banner">
+      <div class="container">
+        <h1>Busca de Oficinas - AutoRecomenda</h1>
+        <p>Encontre as melhores oficinas automotivas em São Paulo!</p>
+      </div>
+    </header>
+
+    <main role="main">
+      <div class="container">
+        <input
+          type="text"
+          id="searchInput"
+          role="searchbox"
+          aria-label="Buscar oficina pelo nome"
+          placeholder="Digite o nome da oficina"
+        />
+        <ul
+          id="results"
+          role="list"
+          aria-live="polite"
+          aria-relevant="additions"
+        ></ul>
+      </div>
+    </main>
+
+    <footer role="contentinfo">
+      <p>&copy; 2024 AutoRecomenda - Ranking de Oficinas Automotivas</p>
+    </footer>
+    <script src="../js/script.js" defer></script>
+  </body>
+</html>
