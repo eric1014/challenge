@@ -1,0 +1,150 @@
+Card 1: Configuração inicial do ambiente de desenvolvimento
+
+História do Usuário:
+Como desenvolvedor, quero configurar o ambiente de desenvolvimento para garantir que todos os membros da equipe possam trabalhar com as mesmas ferramentas e dependências.
+
+Critérios de Aceitação:
+Todos os membros da equipe têm o ambiente configurado com as mesmas versões das ferramentas.
+O ambiente de desenvolvimento executa um exemplo básico sem erros.
+O repositório Git está configurado e acessível por todos os membros da equipe.
+
+Tarefas:
+Instalar e configurar Python, Node.js, e outros pacotes necessários.
+Definir a estrutura de diretórios do projeto.
+Criar repositório Git e definir regras de branch e merge.
+
+####
+Card 2: Desenvolvimento da autenticação de usuários
+
+História do Usuário 1: Como usuário novo, quero poder registrar-me usando meu e-mail e senha para criar uma conta pessoal.
+História do Usuário 2: Como usuário registrado, quero poder fazer login para acessar minha conta e utilizar funcionalidades exclusivas.
+
+Critérios de Aceitação:
+Usuários podem registrar-se utilizando e-mail e senha.
+Usuários podem fazer login e logout com suas credenciais.
+As senhas são armazenadas de forma segura (hashing).
+A autenticação é validada em todos os acessos a áreas restritas.
+
+Tarefas:
+Desenvolver o modelo de dados para usuários.
+Implementar API de login e gerenciamento de sessões.
+Implementar API de registro com validação.
+Criar páginas de registro e login no frontend.
+
+####
+Card 3: Design da interface do usuário
+História do Usuário: Como usuário, quero uma interface intuitiva e agradável para facilitar a navegação e o uso da ferramenta.
+
+Critérios de Aceitação:
+A interface está de acordo com os protótipos aprovados.
+A navegação é intuitiva e as páginas carregam sem erros.
+O design é responsivo e funciona bem em dispositivos móveis e desktops.
+
+Tarefas:
+Desenhar wireframes para as principais páginas.
+Criar protótipos de alta fidelidade.
+Implementar o design responsivo usando HTML/CSS.
+
+Card 4: Modelagem do banco de dados NoSQL
+História do Usuário: Como desenvolvedor, quero modelar o banco de dados NoSQL para otimizar o armazenamento e a recuperação de dados.
+Critérios de Aceitação:
+
+O modelo de dados suporta todas as operações requeridas pelas funcionalidades do sistema.
+As consultas são otimizadas para performance.
+A integridade dos dados é mantida em todas as operações.
+
+Tarefas:
+Definir esquemas de documentos para usuários e dados transacionais.
+Implementar índices para melhorar a performance de consultas.
+Testar queries para as operações mais comuns.
+
+Card 5: Implementar a API de autenticação
+História do Usuário: Como desenvolvedor, quero implementar uma API de autenticação segura para proteger as contas dos usuários.
+Critérios de Aceitação:
+
+A API impede acesso não autorizado a recursos protegidos.
+A API suporta renovação e invalidação de tokens.
+
+Tarefas:
+Configurar middleware de autenticação no backend.
+Integrar medidas de segurança como hashing de senhas e tokens JWT.
+
+Card 6: Criar o layout básico do frontend
+História do Usuário: Como usuário, quero um layout básico que seja visualmente agradável e fácil de navegar.
+Critérios de Aceitação:
+
+O layout corresponde ao design aprovado nos protótipos.
+O site é funcional em dispositivos móveis, tablets e desktops.
+
+Tarefas:
+Implementar o cabeçalho, rodapé e a navegação principal.
+Garantir que o layout seja responsivo.
+
+Card 7: Backend - Construção da lógica de negócios
+História do Usuário: Como desenvolvedor, quero implementar a lógica de negócios para processar as operações essenciais da aplicação.
+Critérios de Aceitação:
+
+Os serviços de backend processam as requisições corretamente.
+As transações de dados são consistentes e seguras.
+
+Tarefas:
+Desenvolver serviços para manipulação de dados.
+Integrar serviços ao banco de dados.
+
+Card 8: Frontend - Implementação de interatividade com JavaScript
+História do Usuário: Como usuário, quero interagir com uma interface dinâmica que responda às minhas ações sem recarregar a página.
+Critérios de Aceitação:
+
+As ações do usuário no frontend resultam em atualizações dinâmicas sem recarregar a página.
+Erros são gerenciados e apresentados ao usuário de forma clara.
+
+Tarefas:
+Implementar AJAX para chamadas de API.
+Criar interações dinâmicas para formulários e botões.
+
+Card 9: Database - Implementação das queries NoSQL
+História do Usuário: Como desenvolvedor, quero implementar queries eficientes para garantir o desempenho e a escalabilidade do banco de dados.
+Critérios de Aceitação:
+
+As queries cumprem os requisitos funcionais com eficiência.
+O tempo de resposta das queries está dentro dos padrões aceitáveis para a carga de trabalho esperada.
+
+Tarefas:
+Escrever queries para inserção, atualização, e busca de dados.
+Otimizar queries com base nos resultados dos testes de performance.
+
+Card 10: Revisão de código do backend
+História do Usuário: Como usuário, quero que o frontend funcione corretamente em diferentes dispositivos e navegadores para garantir uma experiência consistente.
+Critérios de Aceitação:
+
+O frontend é compatível com os principais navegadores e versões.
+Testes de usabilidade confirmam que os usuários podem navegar e usar o site eficientemente.
+
+Tarefas:
+Realizar testes de compatibilidade de navegador.
+Executar testes de usabilidade para garantir a facilidade de uso.
+
+Card 11: Testes de frontend
+História do Usuário: Como desenvolvedor, quero revisar o código do backend para garantir que ele está limpo, seguro e otimizado.
+Critérios de Aceitação:
+
+O código passa em todas as verificações de qualidade e segurança.
+Feedback do peer review é incorporado e melhorias são implementadas.
+
+Tarefas:
+Realizar peer review do código.
+Refatorar o código conforme necessário para melhorar a qualidade e a manutenibilidade.
+
+Card 12: Testes de integração
+História do Usuário: Como equipe de desenvolvimento, queremos garantir que todas as partes do sistema trabalhem juntas sem problemas.
+Critérios de Aceitação:
+
+Testes de integração passam sem erros.
+A integração entre o frontend, backend, e banco de dados funciona como esperado sob diferentes cenários de teste.
+
+Tarefas:
+Implementar testes de integração que cobrem processos completos de ponta a ponta.
+ Analisar os resultados dos testes e ajustar o código conforme necessário.
+
+
+
