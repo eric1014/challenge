@@ -1,0 +1,1007 @@
+{
+  "intents": [
+    {
+      "intent": "Agradecimento",
+      "examples": [
+        {
+          "text": "agradeço!"
+        },
+        {
+          "text": "Ajudou muito"
+        },
+        {
+          "text": "Muito agradecido"
+        },
+        {
+          "text": "muito obrigado"
+        },
+        {
+          "text": "obrigado"
+        },
+        {
+          "text": "obrigado!"
+        },
+        {
+          "text": "obrigado."
+        },
+        {
+          "text": "Thank you"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Como_posso_ajudar",
+      "examples": [
+        {
+          "text": "Como posso ajudar?"
+        },
+        {
+          "text": "Desejo conhecer maneiras de apoiar a saúde do oceano."
+        },
+        {
+          "text": "Desejo saber ações que posso tomar para ajudar o ecossistema marinho."
+        },
+        {
+          "text": "Gostaria de aprender métodos para ajudar na preservação do oceano."
+        },
+        {
+          "text": "Gostaria de obter dicas sobre como preservar o mar."
+        },
+        {
+          "text": "Gostaria de saber como posso contribuir para a preservação do ecossistema marinho."
+        },
+        {
+          "text": "Gostaria de saber maneiras de ajudar o ecossistema marinho"
+        },
+        {
+          "text": "Preciso de informações sobre como ajudar a conservar o mar."
+        },
+        {
+          "text": "Preciso descobrir como posso contribuir para a sustentabilidade do oceano."
+        },
+        {
+          "text": "Quero conhecer iniciativas para ajudar na conservação do ecossistema marinho."
+        },
+        {
+          "text": "Quero descobrir formas de proteger o ecossistema marinho."
+        },
+        {
+          "text": "Quero entender como posso colaborar na proteção do mar."
+        },
+        {
+          "text": "Quero saber o que posso fazer para proteger os ambientes marinhos."
+        }
+      ],
+      "description": "Intenção criada para pessoas que se sensibilizaram pela situação e buscam fazer a diferença!"
+    },
+    {
+      "intent": "denunciar_poluentes",
+      "examples": [
+        {
+          "text": "Boa noite, quero fazer um relato de uma situação"
+        },
+        {
+          "text": "Boa tarde, desejo fazer uma reclamação."
+        },
+        {
+          "text": "Boa tarde, quero fazer um relato de um problema."
+        },
+        {
+          "text": "Bom dia, gostaria de relatar uma denuncia."
+        },
+        {
+          "text": "Bom dia, gostaria de reportar um abuso."
+        },
+        {
+          "text": "Oi, desejo informar uma violação."
+        },
+        {
+          "text": "Oi, necessito denunciar um incidente."
+        },
+        {
+          "text": "Oi, preciso reportar uma infração."
+        },
+        {
+          "text": "Olá, estou aqui para fazer uma denúncia."
+        },
+        {
+          "text": "Olá, gostaria de fazer uma denuncia"
+        },
+        {
+          "text": "Olá, quero registrar uma queixa."
+        },
+        {
+          "text": "Olá, venho comunicar uma irregularidade."
+        },
+        {
+          "text": "Quero fazer uma denuncia"
+        }
+      ],
+      "description": "Intenção criada com a ideia de denunciar infrações na lei referente aos oceanos ou rios que levam ao mar."
+    },
+    {
+      "intent": "especies_em_extincao",
+      "examples": [
+        {
+          "text": "Desejo consultar a relação de espécies ameaçadas."
+        },
+        {
+          "text": "Desejo verificar quais espécies estão em extinção."
+        },
+        {
+          "text": "Gostaria de conhecer as espécies que estão ameaçadas."
+        },
+        {
+          "text": "Gostaria de consultar as especies em extinção"
+        },
+        {
+          "text": "Gostaria de obter informações sobre as espécies em perigo."
+        },
+        {
+          "text": "Gostaria de saber sobre as espécies em risco de extinção."
+        },
+        {
+          "text": "Preciso consultar a lista de espécies em perigo."
+        },
+        {
+          "text": "Preciso consultar as espécies que correm perigo de extinção."
+        },
+        {
+          "text": "Quero acessar informações sobre espécies ameaçadas."
+        },
+        {
+          "text": "Quero saber quais espécies estão em risco."
+        },
+        {
+          "text": "Quero verificar as espécies ameaçadas."
+        },
+        {
+          "text": "Quero verificar quais espécies estão ameaçadas de extinção."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "identificar_especies_por_imagem",
+      "examples": [
+        {
+          "text": "Desejo conhecer essa espécie pela foto."
+        },
+        {
+          "text": "Desejo reconhecer essa espécie com base em uma foto."
+        },
+        {
+          "text": "Gostaria de descobrir essa espécie com uma fotografia."
+        },
+        {
+          "text": "Gostaria de identificar essa espécie olhando para a foto."
+        },
+        {
+          "text": "gostaria de identificar essa especie por uma foto"
+        },
+        {
+          "text": "Gostaria de saber que espécie é essa pela foto."
+        },
+        {
+          "text": "Preciso identificar essa espécie através da foto que tenho."
+        },
+        {
+          "text": "Preciso identificar esta espécie através de uma imagem."
+        },
+        {
+          "text": "Preciso saber o nome dessa espécie com uma imagem."
+        },
+        {
+          "text": "Quero descobrir que espécie é essa por meio de uma fotografia."
+        },
+        {
+          "text": "Quero determinar que espécie é essa usando uma foto."
+        },
+        {
+          "text": "Quero identificar essa espécie usando uma foto."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Proposta",
+      "examples": [
+        {
+          "text": "proposta"
+        },
+        {
+          "text": "Qual é a finalidade de vocês?"
+        },
+        {
+          "text": "Qual é a meta de vocês?"
+        },
+        {
+          "text": "Qual é a real aspiração de vocês?"
+        },
+        {
+          "text": "Qual é a real intenção de vocês?"
+        },
+        {
+          "text": "Qual é a real missão de vocês?"
+        },
+        {
+          "text": "Qual é a verdadeira proposta de vocês?"
+        },
+        {
+          "text": "Qual é o desígnio de vocês?"
+        },
+        {
+          "text": "Qual é o intuito de vocês?"
+        },
+        {
+          "text": "Qual é o objetivo de vocês?"
+        },
+        {
+          "text": "Qual é o projeto de vocês?"
+        },
+        {
+          "text": "Qual é o propósito de vocês?"
+        },
+        {
+          "text": "Qual é o real plano de vocês?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Ajudando",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Apoiar a Pesquisa Marinha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Apoiar Políticas e Organizações de Conservação Marinha",
+          "synonyms": [
+            "Apoiar organizações que trabalham pela preservação dos oceanos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Consumir Produtos do Mar de Forma Sustentável",
+          "synonyms": [
+            "Escolha frutos do mar de origem sustentável e certificada.",
+            "Prefira consumir pescados de maneira responsável."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Educação Ambiental",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing de iniciativas por meio das redes sociais",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Participar de Limpezas de Praia",
+          "synonyms": [
+            "Juntar-se a grupos locais para remover lixo das praias.",
+            "Participar de ações de limpeza de praias na sua comunidade.",
+            "Participar de mutirões de limpeza de áreas costeiras.",
+            "Participar de mutirões de limpeza de praias."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Promover Tecnologias Sustentáveis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Quero saber mais",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Reduzir o gasto de Carbono",
+          "synonyms": [
+            "Minimizar meugasto de carbono",
+            "Reduzir a Pegada de Carbono"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Reduzir o Uso de Plásticos",
+          "synonyms": [
+            "Evitar o uso de plastico ",
+            "Reduzir a dependência de plásticos descartáveis",
+            "Substitur produtos plásticos por alternativas reutilizáveis."
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Especies",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Baleia-franca-do-norte",
+          "synonyms": [
+            "Eubalaena glacialis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Peixe-palhaço",
+          "synonyms": [
+            "Amphiprioninae"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tartaruga-de-couro",
+          "synonyms": [
+            "Dermochelys coriacea"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tartaruga-de-kemp",
+          "synonyms": [
+            "Lepidochelys kempii"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tubarão-martelo",
+          "synonyms": [
+            "Sphyrnidae"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Bem vindo a Blue assistant! Como podemos te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_6_1717007491006",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1717006379540",
+      "context": {
+        "Especies": "@Especies"
+      },
+      "conditions": "@Especies",
+      "event_name": "input",
+      "dialog_node": "handler_1_1717006379550"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1716928169124",
+      "context": {
+        "Ajudando": "@Ajudando"
+      },
+      "conditions": "@Ajudando",
+      "event_name": "input",
+      "dialog_node": "handler_3_1716928169133"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1717006379540",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1717006379550",
+      "previous_sibling": "handler_1_1717006379550"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_8_1716928169124",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1716928169133",
+      "previous_sibling": "handler_3_1716928169133"
+    },
+    {
+      "type": "standard",
+      "title": "Identificando por imagem ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro! Nos envie a foto da qual gostaria de identificar a espécie."
+              },
+              {
+                "text": "Certamente! Encaminhe-nos a imagem da qual deseja determinar a espécie, por favor."
+              },
+              {
+                "text": "Sem problemas! Poderia nos mandar a foto para que possamos identificar a espécie?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#identificar_especies_por_imagem",
+      "dialog_node": "node_10_1717007369631",
+      "previous_sibling": "node_2_1717006345390"
+    },
+    {
+      "type": "frame",
+      "title": "formas de ajudar 2",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Ajudando",
+      "dialog_node": "node_2_1716928129623",
+      "previous_sibling": "node_7_1716926997464"
+    },
+    {
+      "type": "frame",
+      "title": "Espécies em extinção 2",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Especies",
+      "dialog_node": "node_2_1717006345390",
+      "previous_sibling": "node_6_1717006212791"
+    },
+    {
+      "type": "standard",
+      "title": "Espécies em extinção",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, Sobre qual espécie gostaria de saber? "
+              },
+              {
+                "text": "Certo, Qual a espécie do seu interesse? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1717006345390"
+      },
+      "conditions": "#especies_em_extincao",
+      "dialog_node": "node_6_1717006212791",
+      "previous_sibling": "node_7_1717005123561"
+    },
+    {
+      "type": "standard",
+      "title": "Proposta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\"BlueGuard: Ação Sustentável para um Futuro Azul\" é uma iniciativa voltada para a conscientização e ação em prol da preservação dos oceanos. Reconhecendo a importância vital dos oceanos para o equilíbrio do nosso planeta e para a sustentabilidade da vida, esta iniciativa visa mobilizar indivíduos, comunidades e empresas para adotarem práticas e apoiarem projetos que promovam a saúde dos oceanos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Proposta",
+      "dialog_node": "node_6_1717007491006",
+      "previous_sibling": "node_10_1717007369631"
+    },
+    {
+      "type": "standard",
+      "title": "Formas de ajudar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reduzir o Uso de Plásticos, Participar de Limpezas de Praia, Consumir Produtos do Mar de Forma Sustentável, Reduzir a Pegada de Carbono, Apoiar Políticas e Organizações de Conservação Marinha. Caso tenha mais interesse em alguma das opções a cima apenas digite o nome e te daremos mais informações! Se quiser saber outras formas de ajudar, diga ´´Quero saber mais´´."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1716928129623"
+      },
+      "conditions": "#Como_posso_ajudar",
+      "dialog_node": "node_7_1716926997464",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Denunciar poluentes ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo! Nos envie o local onde gostaria de denunciar uma infração e nos informe o problema."
+              },
+              {
+                "text": "Ok. Informe-nos o local onde deseja denunciar uma infração e descreva o problema que observou"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#denunciar_poluentes",
+      "dialog_node": "node_7_1717005123561",
+      "previous_sibling": "node_2_1716928129623"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Participe de ações de limpeza de praias na sua comunidade.\n"
+              },
+              {
+                "text": "Junte-se a grupos locais para remover lixo das praias.\n"
+              },
+              {
+                "text": "Promova mutirões de limpeza de áreas costeiras como puder."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1716928129623",
+      "conditions": "$Ajudando:(Participar de Limpezas de Praia)",
+      "dialog_node": "response_10_1716928270572",
+      "previous_sibling": "response_8_1716928168013"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seguir e apoiar com divulgações com contribuições monetárias com intuito de crescer a ideia e o numero de pessoas alcançadas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1716928129623",
+      "conditions": "$Ajudando:(Marketing de iniciativas por meio das redes sociais)",
+      "dialog_node": "response_4_1717004555860",
+      "previous_sibling": "response_7_1717004533032"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As mudanças climáticas e a acidificação dos oceanos estão afetando negativamente os recifes de coral, que são essenciais para o habitat do peixe-palhaço, iniciativas pra ajudar no aumento gradativo do aquecimento global ajudariam todo o oceano e principalmente espécies como o Amphiprioninae."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1717006345390",
+      "conditions": "$Especies:Peixe-palhaço",
+      "dialog_node": "response_4_1717628688025",
+      "previous_sibling": "response_7_1717628682073"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Adote hábitos para reduzir sua emissão de carbono, como usar transporte público.\n"
+              },
+              {
+                "text": "Reduza seu impacto ambiental utilizando energia de forma eficiente.\n"
+              },
+              {
+                "text": "Pratique ações diárias para diminuir sua contribuição ao aquecimento global.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1716928129623",
+      "conditions": "$Ajudando:(Reduzir o gasto de Carbono)",
+      "dialog_node": "response_6_1716928349616",
+      "previous_sibling": "response_9_1716928321758"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A pesca comercial levou esta espécie à beira da extinção no final do século XIX, e embora a caça comercial tenha cessado, a população continua pequena e vulnerável, seria ineteressante apoiar regulamentações e iniciativas para proteger as baleias, como zonas de proteção marinha e leis contra a colisão de navios para ajudar a espécie!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1717006345390",
+      "conditions": "$Especies:Baleia-franca-do-norte",
+      "dialog_node": "response_6_1717628677367"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muitas espécies de tubarões-martelo são altamente migratórias, viajando longas distâncias em busca de alimento e áreas de reprodução, busquem educar outras pessoas sobre a importância dos tubarões para os ecossistemas marinhos e desmistificar mitos sobre sua periculosidade.."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1717006345390",
+      "conditions": "$Especies:Tubarão-martelo",
+      "dialog_node": "response_6_1717628693362",
+      "previous_sibling": "response_4_1717628688025"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ler livros, artigos e assistir a documentários sobre vida marinha e conservação dos oceanos.\n"
+              },
+              {
+                "text": "Participar de workshops, palestras e eventos relacionados à preservação dos oceanos.\n"
+              },
+              {
+                "text": "Compartilhar conhecimentos com amigos, familiares e comunidade através de conversas informais, mídias sociais ou blogs.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1716928129623",
+      "conditions": "$Ajudando:(Educação Ambiental)",
+      "dialog_node": "response_7_1716928418764",
+      "previous_sibling": "response_9_1716928390839"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Investir em empresas e startups que desenvolvem tecnologias limpas e sustentáveis para a preservação dos oceanos."
+              },
+              {
+                "text": "Adotar práticas sustentáveis em casa e no trabalho, como reduzir o consumo de energia, reciclar e reutilizar materiais.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1716928129623",
+      "conditions": "$Ajudando:(Promover Tecnologias Sustentáveis)",
+      "dialog_node": "response_7_1717004533032",
+      "previous_sibling": "response_9_1717004495225"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo! Educação Ambiental, Apoiar a Pesquisa Marinha, Promover Tecnologias Sustentáveis, Marketing de iniciativas por meio das redes sociais, novamente caso desejar ter mais informações sobre algum tema especifico apenas digite o nome!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1716928129623",
+      "conditions": "$Ajudando:(Quero saber mais)",
+      "dialog_node": "response_7_1717004629191",
+      "previous_sibling": "response_4_1717004555860"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Suas populações estão declinando principalmente devido à ingestão de plástico e ao emaranhamento em redes de pesca, a principal forma de ajudar seria reduzir o consumo de plástico, especialmente itens descartáveis como sacolas e garrafas, para evitar a poluição dos oceanos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1717006345390",
+      "conditions": "$Especies:Tartaruga-de-couro",
+      "dialog_node": "response_7_1717628666999",
+      "previous_sibling": "response_6_1717628677367"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Elas enfrentam ameaças significativas em suas áreas de desova devido à iluminação costeira, que pode desorientar os filhotes recém-nascidos que usam a luz da lua para encontrar o oceano."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1717006345390",
+      "conditions": "$Especies:Tartaruga-de-kemp",
+      "dialog_node": "response_7_1717628682073",
+      "previous_sibling": "response_7_1717628666999"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Substitua produtos plásticos descartáveis por alternativas reutilizáveis"
+              },
+              {
+                "text": "\nReduza a dependência de plásticos descartáveis adotando alternativas sustentáveis.\n"
+              },
+              {
+                "text": "Utilize garrafas, sacolas e recipientes reutilizáveis em vez de plásticos descartáveis.\n"
+              },
+              {
+                "text": "Recicle o maximo que puder!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1716928129623",
+      "conditions": "$Ajudando:(Reduzir o Uso de Plásticos)",
+      "dialog_node": "response_8_1716928168013",
+      "previous_sibling": "slot_8_1716928169124"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Verifique se os produtos do mar que você compra são certificados pelo MSC.\n"
+              },
+              {
+                "text": "Prefira consumir peixes e mariscos pescados de maneira responsável.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1716928129623",
+      "conditions": "$Ajudando:(Consumir Produtos do Mar de Forma Sustentável)",
+      "dialog_node": "response_9_1716928321758",
+      "previous_sibling": "response_10_1716928270572"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Contribua com políticas que promovem a proteção da vida marinha."
+              },
+              {
+                "text": "Engaje-se com grupos e campanhas voltados para a conservação marinha.\n"
+              },
+              {
+                "text": "Doe para entidades e vote em políticas que defendem a saúde dos oceanos.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1716928129623",
+      "conditions": "$Ajudando:(Apoiar Políticas e Organizações de Conservação Marinha)",
+      "dialog_node": "response_9_1716928390839",
+      "previous_sibling": "response_6_1716928349616"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Contribuir financeiramente para organizações de pesquisa marinha através de doações regulares ou campanhas de financiamento coletivo.\n"
+              },
+              {
+                "text": "Voluntariar-se para projetos de pesquisa marinha como monitoramento de espécies, coleta de dados oceanográficos ou atividades de conservação.\n"
+              },
+              {
+                "text": "Divulgar e promover o trabalho de cientistas e instituições de pesquisa marinha para aumentar a conscientização e o apoio público.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1716928129623",
+      "conditions": "$Ajudando:(Apoiar a Pesquisa Marinha)",
+      "dialog_node": "response_9_1717004495225",
+      "previous_sibling": "response_7_1716928418764"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1716928129623",
+      "variable": "$Ajudando",
+      "dialog_node": "slot_8_1716928169124"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1717006345390",
+      "variable": "$Especies",
+      "dialog_node": "slot_9_1717006379540",
+      "previous_sibling": "response_6_1717628693362"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "GS-IA"
+}
